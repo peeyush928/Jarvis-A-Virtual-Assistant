@@ -15,7 +15,7 @@ def sayself(text):
     
 def gpt(c):
 
-    client = OpenAI(api_key="sk-proj-NkPUbDGLEBx1DtLlYmQlT3BlbkFJb9LBABfSo3Gi1rS0Oa1E")
+    client = OpenAI(api_key=" Enter your key")
 
 
     completion = client.chat.completions.create(
@@ -43,7 +43,7 @@ def mygpt(c):
     
     
     elif "news" in c:
-        r=requests.get(f"https://newsapi.org/v2/everything?q=Apple&from=2024-07-31&sortBy=popularity&apiKey={newsapi}")
+        r=requests.get(f"Enter your key ={newsapi}")
         if r.status_code == 200:
             # Parse the JSON response
             data = r.json()
