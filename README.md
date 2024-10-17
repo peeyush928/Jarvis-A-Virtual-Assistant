@@ -36,3 +36,11 @@ First, clone the repository:
 ```bash
 git clone https://github.com/yourusername/jarvis-assistant.git
 cd jarvis-assistant
+
+jarvis-assistant/
+│
+├── main.py                 # Main script for the virtual assistant
+├── musicLibrary.py         # Module for managing music playback
+├── requirements.txt        # List of dependencies
+├── README.md               # Project documentation
+└── ...                     # Other related modules and files
