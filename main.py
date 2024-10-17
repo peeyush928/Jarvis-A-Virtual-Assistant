@@ -7,7 +7,7 @@ import newsapi
 from openai import OpenAI
 
 engine=pyttsx3.init()
-newsapi="c364a35d19bf49c6a06c71d9f807c0a0"
+newsapi="Enter your key"
 
 def sayself(text):
     engine.say(text)
