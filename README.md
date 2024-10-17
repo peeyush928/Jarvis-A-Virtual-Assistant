@@ -1,4 +1,3 @@
-# Jarvis-A-Virtual-Assistant
 # Jarvis - The Virtual Assistant
 
 Jarvis is a virtual assistant, designed to respond to voice commands and perform tasks such as web browsing(opening apps and websites), providing news updates, playing music, and answering questions using OpenAI's GPT model. Inspired by assistants like Alexa and Google Assistant, Jarvis leverages speech recognition and text-to-speech technologies for interactive communication.
